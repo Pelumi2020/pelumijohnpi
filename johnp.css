@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    background: black;
+    box-sizing: border-box;
+}
+.hero{
+    height:100vh;
+    width:100%;
+    background-size:cover ;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h2{
+    color:white;
+}
+nav h2 span{
+    color:red;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding:5px;
+    font-weight: bold;
+    color:white;
+}
+nav ul li a:hover{
+    transition: .4s;
+    color:red;
+}
+nav {
+    display: flex;
+    width:100%;
+}
+nav ul{
+    display: flex;
+    margin-left: 40px;
+}
+.main{
+    color:white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+h1{
+    color:white;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-size: 900;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+.main p span{
+    color:red;
+}
+button{
+    background: red;
+    padding:12px 30px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+color:white;
+font-size: 16px;
+font-weight: bold;
+letter-spacing: 1px;
+transition: .3s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid red;
+    color:white;
+    cursor: pointer; 
+    transform: translateY(-10px)
+}
+.link{
+    position:absolute;
+    top:90%;
+    left:10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.link h6{
+  color:white; 
+  font-size: 20px; 
+  margin-right: 50px;
+}
+.link .social a:hover{
+    transform:translateY(10px);
+}
